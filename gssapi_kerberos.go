@@ -33,6 +33,7 @@ type GSSAPIConfig struct {
 	Username           string
 	Password           string
 	Realm              string
+	DisablePAFXFAST    bool
 }
 
 type GSSAPIKerberosAuth struct {
